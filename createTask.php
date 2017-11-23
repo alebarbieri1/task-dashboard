@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<title>Cadastro Task</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="shortcut icon" href="#" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -49,7 +51,7 @@
 	</head>
 	<body>
 		<?php include "header.php" ?>
-		<form class="form-block" action="saveTask.php" method="post" onsubmit="return validaCampos()">
+		<form accept-charset="utf-8" class="form-block" action="saveTask.php" method="post" onsubmit="return validaCampos()">
 			<div class="col-md-5 col-md-push-3">
 				<h3>Cadastro de Task</h3>
 				<br>
